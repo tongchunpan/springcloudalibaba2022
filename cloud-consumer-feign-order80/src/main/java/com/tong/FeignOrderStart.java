@@ -19,6 +19,7 @@ public class FeignOrderStart {
         System.out.println("这是我使用Dev分支");
         System.out.println("master测试冲突");
         System.out.println();
+        System.out.println();
         SpringApplication.run(FeignOrderStart.class,args);
     }
 }
