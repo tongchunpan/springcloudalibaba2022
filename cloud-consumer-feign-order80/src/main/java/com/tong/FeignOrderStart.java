@@ -20,6 +20,7 @@ public class FeignOrderStart {
         System.out.println("master测试冲突");
         System.out.println();
         System.out.println();
+        System.out.println();
         SpringApplication.run(FeignOrderStart.class,args);
     }
 }
