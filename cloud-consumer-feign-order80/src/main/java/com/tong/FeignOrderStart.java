@@ -17,6 +17,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class FeignOrderStart {
     public static void main(String[] args) {
         System.out.println("这是我使用Dev分支");
+        System.out.println("master测试冲突");
         SpringApplication.run(FeignOrderStart.class,args);
     }
 }
