@@ -17,5 +17,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class ConsumerFeignHystrixOrder80 {
     public static void main(String[] args) {
         SpringApplication.run(ConsumerFeignHystrixOrder80.class,args);
+        System.out.println("hello");
     }
 }
