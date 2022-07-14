@@ -13,5 +13,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class ZookeeperStart {
     public static void main(String[] args) {
         SpringApplication.run(ZookeeperStart.class,args);
+        System.out.println("hello test");
     }
 }
